@@ -1,0 +1,26 @@
+{
+  "name": "@repo/sync",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/diff": "^5.0.9",
+    "@types/lodash": "^4.14.202",
+    "diff": "^5.1.0",
+    "lodash": "^4.17.21",
+    "aws-cdk-lib": "2.110.1"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/eslint": "^8.56.1",
+    "@types/node": "^20.10.6",
+    "eslint": "^8.56.0",
+    "sst": "^2.39.7",
+    "typescript": "^5.3.3"
+  }
+}
